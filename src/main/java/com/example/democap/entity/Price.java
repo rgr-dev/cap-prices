@@ -20,28 +20,28 @@ public class Price {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name="BRAND_ID")
+    @Column(name = "BRAND_ID")
     private Long brandId;
 
-    @Column(name="START_DATE")
+    @Column(name = "START_DATE")
     private LocalDateTime startDate;
 
-    @Column(name="END_DATE")
+    @Column(name = "END_DATE")
     private LocalDateTime endDate;
 
-    @Column(name="PRICE_LIST")
+    @Column(name = "PRICE_LIST")
     private Short priceList;
 
-    @Column(name="PRODUCT_ID")
+    @Column(name = "PRODUCT_ID")
     private Long productId;
 
-    @Column(name="PRIORITY")
+    @Column(name = "PRIORITY")
     private Short priority;
 
-    @Column(name="PRICE")
+    @Column(name = "PRICE")
     private Double price;
 
-    @Column(name="CURR")
+    @Column(name = "CURR")
     private String currency;
 
 }

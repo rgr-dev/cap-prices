@@ -1,7 +1,6 @@
 package com.example.democap.service;
 
 import com.example.democap.dto.PriceResponseDTO;
-import com.example.democap.entity.Price;
 
 public interface PriceService {
 
